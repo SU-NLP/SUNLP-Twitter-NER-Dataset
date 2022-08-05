@@ -18,13 +18,13 @@ Dataset is split into train/val/test sets with ratios of 70/15/15. Each line is 
 
 The baseline results obtained with different models in the validation and test sets are presented as follows: 
 
-| Model                      | Validation F1 Score  | Test F1 Score
-| -------------------------- | -------------------- | -------------
-| BiLSTM                     |                      | 
-| BiLSTM-CRF                 |                      | 
-| [BERTurk (cased, 128k)](https://huggingface.co/dbmdz/bert-base-turkish-128k-cased)     |                      | 
-| [BERT_loodos](https://huggingface.co/loodos/bert-base-turkish-cased)                                         | 
-| [ConvBERTurk mC4 (cased)](https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased)    |                      | 
+| Model                                                                                    | Validation F1 Score  | Test F1 Score
+| ---------------------------------------------------------------------------------------- | -------------------- | -------------
+| BiLSTM                                                                                   |                      | 
+| BiLSTM-CRF                                                                               |                      | 
+| [BERTurk (cased, 128k)](https://huggingface.co/dbmdz/bert-base-turkish-128k-cased)       |                      | 
+| [BERT_loodos](https://huggingface.co/loodos/bert-base-turkish-cased)                     |                      | 
+| [ConvBERTurk mC4 (cased)](https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased)  |                      | 
 
 You can cite the following [paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.484.pdf), if you use this dataset:
 
@@ -40,7 +40,7 @@ You can cite the following [paper](http://www.lrec-conf.org/proceedings/lrec2022
   pages     = {4546--4551},
   url       = {https://aclanthology.org/2022.lrec-1.484}
 }
-
+```
 
 For questions or comments regarding the data set, you can contact the author by e-mail:
 
