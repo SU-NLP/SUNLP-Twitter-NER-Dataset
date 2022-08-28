@@ -40,11 +40,10 @@ The baseline results obtained with different models in the validation and test s
 
 | Model                                                                                    | Validation F1 Score  | Test F1 Score
 | ---------------------------------------------------------------------------------------- | -------------------- | -------------
-| BiLSTM                                                                                   |                      | 
-| BiLSTM-CRF                                                                               |                      | 
-| [BERTurk (cased, 128k)](https://huggingface.co/dbmdz/bert-base-turkish-128k-cased)       | 84.65                | 83.64
-| [BERT_loodos](https://huggingface.co/loodos/bert-base-turkish-cased)                     | 84.69                | 85.14
-| [ConvBERTurk mC4 (cased)](https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased)  | 84.67                | 84.96
+| BiLSTM-CRF                                                                               | 70.49                | 69.10
+| [BERTurk (cased, 128k)](https://huggingface.co/dbmdz/bert-base-turkish-128k-cased)       | 85.11                | 82.57
+| [BERT_loodos](https://huggingface.co/loodos/bert-base-turkish-cased)                     | 84.49                | 84.51
+| [ConvBERTurk mC4 (cased)](https://huggingface.co/dbmdz/convbert-base-turkish-mc4-cased)  | 83.22                | 82.75
 
 You can cite the following [paper](http://www.lrec-conf.org/proceedings/lrec2022/pdf/2022.lrec-1.484.pdf), if you use this dataset:
 
