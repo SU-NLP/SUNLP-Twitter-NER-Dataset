@@ -13,6 +13,15 @@ tokenizer = AutoTokenizer.from_pretrained("busecarik/berturk-sunlp-ner-turkish")
 model = AutoModelForTokenClassification.from_pretrained("busecarik/berturk-sunlp-ner-turkish")
 ```
 
+and
+
+```python
+from transformers import AutoTokenizer, AutoModelForTokenClassification
+
+tokenizer = AutoTokenizer.from_pretrained("busecarik/bert-loodos-sunlp-ner-turkish")
+model = AutoModelForTokenClassification.from_pretrained("busecarik/bert-loodos-sunlp-ner-turkish")
+```
+
 ## Dataset
 
 Dataset is split into train/val/test sets with ratios of 70/15/15. Each line is separated with a tab character. The description of columns in each line is as follows:
