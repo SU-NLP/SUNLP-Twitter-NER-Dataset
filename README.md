@@ -2,6 +2,8 @@
 
 This repository describes the Twitter dataset for Named Entity Recognition in Turkish. The dataset consists of 5,000 randomly selected tweets published between June 2020 and June 2021. 
 
+## BERTurk and loodos's BERT model trained on our train set can be found in HuggingFace as [busecarik/berturk-sunlp-ner-turkish](https://huggingface.co/busecarik/berturk-sunlp-ner-turkish) and [busecarik/bert-loodos-sunlp-ner-turkish] (https://huggingface.co/busecarik/bert-loodos-sunlp-ner-turkish). 
+
 ## Dataset
 
 Dataset is split into train/val/test sets with ratios of 70/15/15. Each line is separated with a tab character. The description of columns in each line is as follows:
